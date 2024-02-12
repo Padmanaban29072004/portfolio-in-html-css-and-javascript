@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo4.png" class="logo">
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    
+                </ul>
+                
+            </nav>
+            <div class="header-text">
+                <p>JAVA PROGRAMMER</p>
+                <h1>Hi, I'm <span>Padmanaban</span><br>from REC</h1>
+            </div>
+        </div>
+    </div>
+    <!--------about----------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user1.jpg"> 
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p> I am a Btech student in Rajalakshmi Engineering College. now I am running my e-commerce website and currently commit in java projects. </p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick=" opentab('skills')" > Skills</p>
+                        <p class="tab-links" onclick=" opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick=" opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>JAVA Programming</span><br>Developing web application</li>
+                            <li><span>Web Development</span><br>Web App Development</li>
+                            <li><span>App Development</span><br>Building Android/IOS</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents active-tab " id="experience">
+                        <ul>
+                            <li><span>2022 - 2026</span><br>become to java developer in REC</li>
+                            <li><span>2024 - current</span><br>running an E-commerce Website</li>
+                            <li><span>2025</span><br>Step into the web Designing</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents active-tab " id="education">
+                        <ul>
+                            <li><span>2024 - 2026</span><br>undergoing my professional course</li>
+                            <li><span>2019 - 2020</span><br>completion of 10th in Oxford English School</li>
+                            <li><span>2021 - 2022</span><br>completion of 12th class in Bharathi Matriculation and Higher Secondary School</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-----------------services------------------------->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <span class="icon">
+                        <i class="fa fa-code"></i>
+                        </span>
+                    <h2> web developer</h2>
+                    <p> 1.Proficient in front-end technologies, creating visually stunning and responsive web interfaces using HTML, CSS, and JavaScript.
+                        2.Experienced in full-stack development, adept at utilizing frameworks like React and Node.js to build dynamic and scalable web applications.
+                        3.Passionate about optimizing user experiences, employing best practices in web development to deliver seamless and innovative online solutions.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa fa-crop"></i>
+                    <h2> Application Development</h2>
+                    <p> 1.Expertise in mobile application development, crafting intuitive and feature-rich apps for both iOS and Android platforms.
+                        2.Skilled in cross-platform development using frameworks like React Native, ensuring efficient code reuse and rapid deployment.
+                        3.Committed to creating robust and user-centric applications, with a focus on optimizing performance, security, and overall user satisfaction.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa fa-user"></i>
+                    <h2>Building android/IOS</h2>
+                    <p> 1. Expert in Android and iOS app development, crafting feature-rich and user-friendly mobile applications with a focus on clean code and optimal performance.
+                        2. Proficient in leveraging native technologies such as Swift for iOS and Kotlin for Android, ensuring seamless and platform-specific experiences.
+                        3. Dedicated to creating mobile solutions that prioritize intuitive UI/UX design, responsiveness, and compatibility across a diverse range of devices.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!----------------portfolio------------------->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.png">
+                    <div class="layer">
+                        <h3>Web Developer</h3>
+                        <p>The web application you the talented people around the world.
+                        Download in web.</p>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.png">
+                    <div class="layer">
+                        <h3>Game Developer</h3>
+                        <p>The application source code are available in github.Code and enjoy</p>
+                        
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.png">
+                    <div class="layer">
+                        <h3>Bug clear expert</h3>
+                        <p>Any bug i will clear without any changes in the source code in the web application</p>
+                        
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+    <!---------------------contact----------------------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p> <i class="fa fa-paper-plane"></i> padmanaban.govindarajalu@gmail.com</p>
+                    <p> <i class="fa fa-phone"></i>0123456789</p>
+                    <div class="social-icons">
+                        <span class="icon">
+               
+                            <a href="https://www.facebook.com/profile.php?id=100081856043177&mibextid=ZbWKwL"><i class="fa fa-facebook"></i></a>
+                            <a href="https://www.instagram.com/._padmanaban.._?igsh=bDJhdzRtYzl2emMy"><i class="fa fa-instagram"></i></a>
+                            <i class="fa fa-twitter"></i>
+                            <a href="https://github.com/Padmanaban29072004"><i class="fa fa-github" ></i></a>
+            
+                        </span>
+            
+                    </div>
+                    <a href="images/my-cv.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright @padmanaban. made by <i class="fa fa-heart"></i> padmanaban</p>
+        </div>
+    </div>
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tablinks = document.getElementsByClassName("tab-contents");
+        function opentab(tabname) {
+            for(tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents) {
+                tablink.classList.remove("active-tab");
+            }
+        
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+        }
+
+    </script>
+    
+</body>
+</html>
